@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    min-height: 600px;
+    background: #faf7e8;
+    color: #291f15;
+}
+main .icon {
+    width: 64px;
+    height: 64px;
+}
+main div {
+    margin: 1rem;
+}
+main h1 {
+    font-weight: 700;
+    font-size: 200%;
+}
+main h1 span {
+    color: #dc6851;
+}
+main p {
+    font-weight: 600;
+}
+
+footer {
+    background: #47403a;
+    color: rgba(255, 255, 255, 0.4);
+}
+footer p {
+    margin: 3rem;
+}
+
+svg {
+    fill: currentColor;
+}
+
+.flex-center {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
